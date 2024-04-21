@@ -1,0 +1,18 @@
+npm create vite@latest
+
+cd 09themeswitcher
+npm i
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+content: [
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}",
+],
+
+index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
